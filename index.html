@@ -1,13 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Odin Admin Dashboard</title>
     <script src="main.js"></script>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    
-</body>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="side-bar">
+        <div class="logo-div">
+          <img src="images/view-dashboard.svg" height="40px;" alt="" />Dashboard
+        </div>
+        <div class="nav-button-list">
+          <ul>
+            <li>Home</li>
+            <li>Profile</li>
+            <li>Messages</li>
+            <li>History</li>
+            <li>Tasks</li>
+            <li>Communities</li>
+          </ul>
+          <br />
+        </div>
+        <div class="account-button-list">
+          <ul>
+            <li>Settings</li>
+            <li>Support</li>
+            <li>Privacy</li>
+          </ul>
+        </div>
+      </div>
+      <div class="top-bar">
+        <div class="search-bar">
+          <img src="/images/magnify.svg" height="20px;" alt="" />
+          <input type="text" />
+        </div>
+        <div class="profile-button-bar">Profile and Button Bar</div>
+      </div>
+      <div class="main-content">
+        <div class="card-section">
+          Your Projects
+          <br />
+          <div id="card">Card 1</div>
+          <div id="card">Card 2</div>
+          <div id="card">Card 3</div>
+          <div id="card">Card 4</div>
+          <div id="card">Card 5</div>
+          <div id="card">Card 6</div>
+        </div>
+        <div class="announcement-section">
+          Announcement Section
+          <div class="announcement-card"></div>
+        </div>
+        <div class="trending-section">
+          Trending Section
+          <div class="trending-card"></div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
