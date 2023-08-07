@@ -3,6 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Odin Admin Dashboard</title>
     <script src="main.js"></script>
     <link rel="stylesheet" href="style.css" />
@@ -15,56 +18,97 @@
   </head>
   <body>
     <div class="wrapper">
-      <div class="side-bar">
-        <div class="logo-div">
-          <img src="images/view-dashboard.svg" height="40px;" alt="" />Dashboard
+      <div class="sidebar">
+        <div class="dashboard-logo">
+          <img
+            src="/images/view-dashboard.svg"
+            alt="Dashboard Icon"
+            height="44px"
+          />
+          <h2>Dashboard</h2>
         </div>
-        <div class="nav-button-list">
-          <ul>
-            <li>Home</li>
-            <li>Profile</li>
-            <li>Messages</li>
-            <li>History</li>
-            <li>Tasks</li>
-            <li>Communities</li>
-          </ul>
-          <br />
-        </div>
-        <div class="account-button-list">
-          <ul>
-            <li>Settings</li>
-            <li>Support</li>
-            <li>Privacy</li>
-          </ul>
+
+        <div class="sidebar-list">
+          <div class="icon-text">
+            <img src="/images/home.svg" height="24px" width="24px" alt="Home" />
+            <p>Home</p>
+          </div>
+          <div class="icon-text">
+            <img
+              src="/images/profile.svg"
+              height="24px"
+              width="24px"
+              alt="Profile"
+            />
+            <p>Profile</p>
+          </div>
+          <div class="icon-text">
+            <img
+              src="/images/messages.svg"
+              height="24px"
+              width="24px"
+              alt="Messages"
+            />
+            <p>Messages</p>
+          </div>
+          <div class="icon-text">
+            <img
+              src="/images/history.svg"
+              height="24px"
+              width="24px"
+              alt="History"
+            />
+            <p>History</p>
+          </div>
+          <div class="icon-text">
+            <img
+              src="/images/tasks.svg"
+              height="24px"
+              width="24px"
+              alt="Tasks"
+            />
+            <p>Tasks</p>
+          </div>
+          <div class="icon-text">
+            <img
+              src="/images/communities.svg"
+              height="24px"
+              width="24px"
+              alt="Communities"
+            />
+            <p>Communities</p>
+          </div>
+          <br /><br />
+          <div class="icon-text">
+            <img
+              src="/images/settings.svg"
+              height="24px"
+              width="24px"
+              alt="Communities"
+            />
+            <p>Settings</p>
+          </div>
+          <div class="icon-text">
+            <img
+              src="/images/support.svg"
+              height="24px"
+              width="24px"
+              alt="Communities"
+            />
+            <p>Support</p>
+          </div>
+          <div class="icon-text">
+            <img
+              src="/images/privacy.svg"
+              height="24px"
+              width="24px"
+              alt="Communities"
+            />
+            <p>Privacy</p>
+          </div>
         </div>
       </div>
-      <div class="top-bar">
-        <div class="search-bar">
-          <img src="/images/magnify.svg" height="20px;" alt="" />
-          <input type="text" />
-        </div>
-        <div class="profile-button-bar">Profile and Button Bar</div>
-      </div>
-      <div class="main-content">
-        <div class="card-section">
-          Your Projects
-          <br />
-          <div id="card">Card 1</div>
-          <div id="card">Card 2</div>
-          <div id="card">Card 3</div>
-          <div id="card">Card 4</div>
-          <div id="card">Card 5</div>
-          <div id="card">Card 6</div>
-        </div>
-        <div class="announcement-section">
-          Announcement Section
-          <div class="announcement-card"></div>
-        </div>
-        <div class="trending-section">
-          Trending Section
-          <div class="trending-card"></div>
-        </div>
-      </div>
+      <div class="main-content">Main Content</div>
     </div>
   </body>
 </html>
